@@ -1,0 +1,136 @@
+{
+    "manifest_version": 2,
+    "name": "gmail account switcher",
+    "description": "switch gmail account using shortcuts",
+    "version": "1",
+    "author": "Thamaraiselvam",
+    "browser_action": {
+      "default_icon": "assets/icon.png",
+      "default_title": "Gmail Account Switcher"
+    },
+    "background": {
+      "scripts": [
+        "background.js"
+      ],
+      "persistent": false
+    },
+    "commands": {
+      "current-tab-1": {
+        "suggested_key": {
+          "default": "Ctrl+1"
+        },
+        "description": "redirect to account number 1"
+      },
+      "current-tab-2": {
+        "suggested_key": {
+          "default": "Ctrl+1"
+        },
+        "description": "redirect to account number 1"
+      },
+      "current-tab-3": {
+        "suggested_key": {
+          "default": "Ctrl+1"
+        },
+        "description": "redirect to account number 1"
+      },
+      "current-tab-4": {
+        "suggested_key": {
+          "default": "Ctrl+1"
+        },
+        "description": "redirect to account number 1"
+      },
+      "current-tab-5": {
+        "suggested_key": {
+          "default": "Ctrl+1"
+        },
+        "description": "redirect to account number 1"
+      },
+      "current-tab-6": {
+        "suggested_key": {
+          "default": "Ctrl+1"
+        },
+        "description": "redirect to account number 1"
+      },
+      "current-tab-7": {
+        "suggested_key": {
+          "default": "Ctrl+1"
+        },
+        "description": "redirect to account number 1"
+      },
+      "current-tab-8": {
+        "suggested_key": {
+          "default": "Ctrl+1"
+        },
+        "description": "redirect to account number 1"
+      },
+      "current-tab-9": {
+        "suggested_key": {
+          "default": "Ctrl+1"
+        },
+        "description": "redirect to account number 1"
+      },
+      "new-tab-1": {
+        "suggested_key": {
+          "default": "Ctrl+1"
+        },
+        "description": "redirect to account number 1"
+      },
+      "new-tab-2": {
+        "suggested_key": {
+          "default": "Ctrl+1"
+        },
+        "description": "redirect to account number 1"
+      },
+      "new-tab-3": {
+        "suggested_key": {
+          "default": "Ctrl+1"
+        },
+        "description": "redirect to account number 1"
+      },
+      "new-tab-4": {
+        "suggested_key": {
+          "default": "Ctrl+1"
+        },
+        "description": "redirect to account number 1"
+      },
+      "new-tab-5": {
+        "suggested_key": {
+          "default": "Ctrl+1"
+        },
+        "description": "redirect to account number 1"
+      },
+      "new-tab-6": {
+        "suggested_key": {
+          "default": "Ctrl+1"
+        },
+        "description": "redirect to account number 1"
+      },
+      "new-tab-7": {
+        "suggested_key": {
+          "default": "Ctrl+1"
+        },
+        "description": "redirect to account number 1"
+      },
+      "new-tab-8": {
+        "suggested_key": {
+          "default": "Ctrl+1"
+        },
+        "description": "redirect to account number 1"
+      },
+      "new-tab-9": {
+        "suggested_key": {
+          "default": "Ctrl+1"
+        },
+        "description": "redirect to account number 1"
+      },
+      "new-tab-10": {
+        "suggested_key": {
+          "default": "Ctrl+1"
+        },
+        "description": "redirect to account number 1"
+      }
+    },
+    "permissions": [
+      "tabs"
+    ]
+  }
